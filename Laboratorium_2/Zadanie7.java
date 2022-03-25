@@ -42,6 +42,10 @@ class Card {
                         this.value = "K";
                         break;
                     case 14:
+                        this.value = "A";
+                        break;
+                    // Dodałem opcję A - wcześniej o niej zapomniałem więc screen z zadania ma jeden błąd   
+                    case 15:
                         this.value = "J";
                         break;
                     default:
